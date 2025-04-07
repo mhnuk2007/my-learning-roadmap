@@ -10,7 +10,7 @@ Welcome to my personal learning journey! This roadmap tracks my progress in mast
 
 These badges can be automated later via GitHub Actions to reflect progress:
 
-![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-0%25-red)
+![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-40%25-red)
 ![Java](https://img.shields.io/badge/Java-0%25-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0%25-red)
 ![Docker](https://img.shields.io/badge/Docker-0%25-red)
@@ -40,8 +40,8 @@ These badges can be automated later via GitHub Actions to reflect progress:
 
 ## ✅ Git & GitHub
 
-- [ ] Install Git & configure username/email
-- [ ] Learn basic commands (`init`, `clone`, `add`, `commit`, `push`, `pull`)
+- [x] Install Git & configure username/email
+- [x] Learn basic commands (`init`, `clone`, `add`, `commit`, `push`, `pull`)
 - [ ] Branching and merging
 - [ ] GitHub CLI (`gh auth login`, `gh repo clone`, etc.)
 - [ ] GitHub Actions basics
