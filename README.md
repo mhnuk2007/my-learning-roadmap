@@ -1,81 +1,154 @@
-# 🎓 My Learning Roadmap
+# 🎯 My Learning Roadmap
 
-## 📊 Progress Badges
+Welcome to my personal learning journey! This roadmap tracks my progress in mastering:
+
+> **Git & GitHub • Java • Spring/Spring Boot • Docker • AWS • Google Cloud • DevOps**
+
+---
+
+## 📊 Progress Overview
+
+These badges can be automated later via GitHub Actions to reflect progress:
 
 ![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-0%25-red)
 ![Java](https://img.shields.io/badge/Java-0%25-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0%25-red)
 ![Docker](https://img.shields.io/badge/Docker-0%25-red)
 ![AWS](https://img.shields.io/badge/AWS-0%25-red)
-![GCP](https://img.shields.io/badge/GCP-0%25-red)
+![Google Cloud](https://img.shields.io/badge/GCP-0%25-red)
 ![DevOps](https://img.shields.io/badge/DevOps-0%25-red)
+
+---
+
+## 📅 Weekly Learning Schedule
+
+| Week | Focus Area              | Topics Covered |
+|------|-------------------------|----------------|
+| 1    | Git & GitHub            | Git basics, CLI, GitHub, branching |
+| 2-3  | Java Core               | Syntax, OOP, Collections, Exceptions |
+| 4    | JDBC + MySQL            | CRUD operations, connection pooling |
+| 5-6  | Spring Framework        | Spring Core, Beans, DI, AOP |
+| 7-8  | Spring Boot             | REST APIs, Spring Security, Validation |
+| 9    | Docker                  | Images, Containers, Volumes |
+| 10   | Docker Compose + CI/CD | Compose, GitHub Actions |
+| 11   | AWS                     | EC2, RDS, S3, IAM |
+| 12   | Google Cloud            | GCE, Cloud Storage |
+| 13   | DevOps Tools            | Jenkins, Kubernetes basics |
+| 14+  | Projects + Revision     | Build full-stack apps |
 
 ---
 
 ## ✅ Git & GitHub
 
-- [ ] Install Git
-- [ ] Learn basic Git commands
-- [ ] Push code to GitHub
-- [ ] Create and merge branches
-- [ ] Use GitHub CLI
-- [ ] Create GitHub Actions workflow
+- [ ] Install Git & configure username/email
+- [ ] Learn basic commands (`init`, `clone`, `add`, `commit`, `push`, `pull`)
+- [ ] Branching and merging
+- [ ] GitHub CLI (`gh auth login`, `gh repo clone`, etc.)
+- [ ] GitHub Actions basics
 
 ---
 
 ## ✅ Java
 
-- [ ] Install Java SDK and IntelliJ
-- [ ] Learn Variables, Data Types
+- [ ] Install Java SDK and IntelliJ IDEA
+- [ ] Variables, Data Types, Control Structures
 - [ ] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
-- [ ] Collections and Streams
 - [ ] Exception Handling
+- [ ] Collections Framework
+- [ ] Lambda and Stream API
+- [ ] File I/O Basics
 
 ---
 
-## ✅ Spring Boot
+## ✅ JDBC + MySQL
 
-- [ ] Spring Core
-- [ ] Spring Boot Basics
-- [ ] CRUD APIs with Spring Boot
-- [ ] Connect Spring Boot with MySQL
-- [ ] Spring Security Basics
+- [ ] Install MySQL and connect via JDBC
+- [ ] Create Employee table with CRUD
+- [ ] Use PreparedStatement
+- [ ] Connection Pooling using HikariCP
+
+---
+
+## ✅ Spring / Spring Boot
+
+- [ ] Spring Core (IoC, Beans, Annotations)
+- [ ] Spring Boot Setup
+- [ ] REST APIs (GET, POST, PUT, DELETE)
+- [ ] CRUD using Spring Data JPA
+- [ ] Validation with Hibernate Validator
+- [ ] Spring Security basics
+- [ ] JWT Authentication
+- [ ] Pagination and Sorting
 
 ---
 
 ## ✅ Docker
 
-- [ ] Install Docker
-- [ ] Dockerize Java App
-- [ ] Docker Compose Basics
-- [ ] Volumes and Networking
-- [ ] DockerHub
+- [ ] Install Docker Desktop
+- [ ] Create Dockerfile
+- [ ] Build and run containers
+- [ ] Docker Volumes
+- [ ] Docker Networking
+- [ ] Push image to DockerHub
+
+---
+
+## ✅ Docker Compose + CI/CD
+
+- [ ] Compose file setup for multi-container app
+- [ ] GitHub Actions for CI (build/test)
+- [ ] GitHub Actions for CD (deploy to EC2 or local)
 
 ---
 
 ## ✅ AWS
 
-- [ ] Create Free AWS Account
-- [ ] Understand EC2, S3, IAM
+- [ ] Free Tier account
+- [ ] IAM roles and policies
+- [ ] Launch EC2 instance
+- [ ] Setup RDS (MySQL)
 - [ ] Deploy Spring Boot App to EC2
-- [ ] Use RDS (MySQL) with EC2
-- [ ] Monitor with CloudWatch
+- [ ] Upload files to S3
+- [ ] Monitor using CloudWatch
 
 ---
 
-## ✅ Google Cloud (GCP)
+## ✅ Google Cloud Platform (GCP)
 
-- [ ] Create Free GCP Account
-- [ ] Setup GCE (Compute Engine)
-- [ ] Use Cloud Storage
-- [ ] Deploy App using GCP
+- [ ] Free trial setup
+- [ ] Create and connect to GCE instance
+- [ ] Setup firewall rules and SSH access
+- [ ] Deploy Spring Boot app
+- [ ] Use Cloud Storage for file handling
 
 ---
 
 ## ✅ DevOps
 
-- [ ] CI/CD Basics
-- [ ] GitHub Actions CI/CD
-- [ ] Monitor using Prometheus/Grafana
-- [ ] Understand Infrastructure as Code (IaC)
-- [ ] Learn basics of Kubernetes
+- [ ] Jenkins basics
+- [ ] CI/CD with GitHub Actions + Jenkins
+- [ ] Intro to Kubernetes (kubectl, pods, deployments)
+- [ ] Monitor containers with Prometheus/Grafana
+- [ ] Infrastructure as Code (Terraform or AWS CDK)
+
+---
+
+## 🧪 Practice Projects
+
+- [ ] Employee Management System (Spring Boot + MySQL)
+- [ ] Dockerized Java App with CI/CD
+- [ ] Cloud Deployed Microservice (AWS/GCP)
+- [ ] DevOps Dashboard + Monitoring
+
+---
+
+## 🚀 Tips
+
+- Use branches like `week-01`, `week-02`, etc., to organize your progress.
+- Open issues or discussions for notes & Q/A with yourself.
+- Track commits weekly to visualize your learning activity.
+
+---
+
+Feel free to fork and customize your own journey!
+
