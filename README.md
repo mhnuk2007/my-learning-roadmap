@@ -10,8 +10,8 @@ Welcome to my personal learning journey! This roadmap tracks my progress in mast
 
 These badges can be automated later via GitHub Actions to reflect progress:
 
-![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-80%25-red)
-![Java](https://img.shields.io/badge/Java-0%25-red)
+![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-100%25-red)
+![Java](https://img.shields.io/badge/Java-14%25-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0%25-red)
 ![Docker](https://img.shields.io/badge/Docker-0%25-red)
 ![AWS](https://img.shields.io/badge/AWS-0%25-red)
@@ -44,13 +44,13 @@ These badges can be automated later via GitHub Actions to reflect progress:
 - [x] Learn basic commands (`init`, `clone`, `add`, `commit`, `push`, `pull`)
 - [x] Branching and merging
 - [x] GitHub CLI (`gh auth login`, `gh repo clone`, etc.)
-- [ ] GitHub Actions basics
+- [x] GitHub Actions basics
 
 ---
 
 ## ✅ Java
 
-- [ ] Install Java SDK and IntelliJ IDEA
+- [x] Install Java SDK and IntelliJ IDEA
 - [ ] Variables, Data Types, Control Structures
 - [ ] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - [ ] Exception Handling
