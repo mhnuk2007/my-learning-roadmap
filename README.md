@@ -51,7 +51,7 @@ These badges can be automated later via GitHub Actions to reflect progress:
 ## ✅ Java
 
 - [x] Install Java SDK and IntelliJ IDEA
-- [ ] Variables, Data Types, Control Structures
+- [x] Variables, Data Types, Control Structures
 - [ ] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - [ ] Exception Handling
 - [ ] Collections Framework
