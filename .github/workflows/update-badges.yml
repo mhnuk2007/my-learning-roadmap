@@ -1,1 +1,36 @@
+name: Update Progress Badges
 
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  update-badges:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update badges
+        run: |
+          # Insert your badge update script/logic here
+          # For example: python scripts/update_badges.py
+          echo "Update logic goes here"
+
+      - name: Commit and push if changes
+        run: |
+          git add README.md
+          git diff --cached --quiet || (
+            git commit -m "Auto-update progress badges"
+            git push origin HEAD:main
+          )
