@@ -28,5 +28,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add README.md
-          git commit -m "🔄 Auto-update progress badges" || echo "No changes to commit"
-          git push
+          git commit -m "Auto-update progress badges" || echo "No changes to commit"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/mhnuk2007/my-learning-roadmap.git HEAD:main
