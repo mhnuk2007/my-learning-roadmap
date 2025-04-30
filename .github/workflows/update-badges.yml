@@ -1,27 +1,25 @@
-name: Update Progress Badges
+name: Auto Commit Badge Update
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
-  update-badges:
+  auto-commit:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: 3.11
 
-      - name: Install requirements
-        run: pip install markdown
-
-      - name: Run badge updater script
-        run: python update_badges.py
+      # Optional: your badge update step here, if needed
+      # - name: Update badges or data
+      #   run: python your-script.py
 
       - name: Commit and push changes
         run: |
