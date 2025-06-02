@@ -1,6 +1,5 @@
 import re
 
-# Define sections and corresponding badge lines
 sections = {
     "Git & GitHub": "Git%20%26%20GitHub",
     "Java": "Java",
@@ -15,11 +14,13 @@ def get_progress(lines, section):
     inside_section = False
     total = done = 0
     for line in lines:
-        if section in line:
+        # Robust check for section start (ignore extra spaces, emoji, etc.)
+        if re.match(rf"^\s*##+\s*✅?\s*{re.escape(section)}\s*$", line):
             inside_section = True
             continue
         if inside_section:
-            if line.startswith("## "):  # next section starts
+            # Next section: any line starting with ## or ###
+            if re.match(r"^\s*##+", line):
                 break
             if "- [x]" in line.lower():
                 done += 1
@@ -29,7 +30,8 @@ def get_progress(lines, section):
     return int((done / total) * 100) if total else 0
 
 def update_badge(line, percent):
-    return re.sub(r'\d+%25', f"{percent}%25", line)
+    # Replace the percentage in the badge URL (e.g., -14%25-)
+    return re.sub(r'-(\d+)%25-', f'-{percent}%25-', line)
 
 with open("README.md", "r", encoding="utf-8") as file:
     lines = file.readlines()
@@ -39,7 +41,8 @@ for line in lines:
     updated = False
     for title, label in sections.items():
         if label in line:
-            progress = get_progress(lines, f"## ✅ {title}")
+            progress = get_progress(lines, title)
+            print(f"{title} progress: {progress}%")  # Debug output
             new_line = update_badge(line, progress)
             new_lines.append(new_line)
             updated = True
