@@ -151,4 +151,3 @@ These badges can be automated later via GitHub Actions to reflect progress:
 ---
 
 Feel free to fork and customize your own journey!
-
