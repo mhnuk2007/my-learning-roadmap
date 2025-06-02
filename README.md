@@ -52,9 +52,9 @@ These badges can be automated later via GitHub Actions to reflect progress:
 
 - [x] Install Java SDK and IntelliJ IDEA
 - [x] Variables, Data Types, Control Structures
-- [ ] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
-- [ ] Exception Handling
-- [ ] Collections Framework
+- [x] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
+- [x] Exception Handling
+- [x] Collections Framework
 - [ ] Lambda and Stream API
 - [ ] File I/O Basics
 
