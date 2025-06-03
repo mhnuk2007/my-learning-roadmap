@@ -56,7 +56,7 @@ These badges can be automated later via GitHub Actions to reflect progress:
 - [x] Exception Handling
 - [x] Collections Framework
 - [ ] Lambda and Stream API
-- [ ] File I/O Basics
+- [x] File I/O Basics
 
 ---
 
