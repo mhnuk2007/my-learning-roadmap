@@ -11,7 +11,7 @@ Welcome to my personal learning journey! This roadmap tracks my progress in mast
 These badges can be automated later via GitHub Actions to reflect progress:
 
 ![Git & GitHub](https://img.shields.io/badge/Git%20%26%20GitHub-100%25-red)
-![Java](https://img.shields.io/badge/Java-14%25-red)
+![Java](https://img.shields.io/badge/Java-71%25-red)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-0%25-red)
 ![Docker](https://img.shields.io/badge/Docker-0%25-red)
 ![AWS](https://img.shields.io/badge/AWS-0%25-red)
