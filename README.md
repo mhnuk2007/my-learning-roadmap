@@ -60,12 +60,12 @@ These badges can be automated later via GitHub Actions to reflect progress:
 
 ---
 
-## ✅ JDBC + MySQL
+## ✅ JDBC + MySQL/PostgreSQL
 
-- [x] Install MySQL and connect via JDBC
+- [x] Install MySQL/PostgreSQL and connect via JDBC
 - [x] Create Employee table with CRUD
 - [x] Use PreparedStatement
-- [ ] Connection Pooling using HikariCP
+- [x] Connection Pooling using HikariCP
 
 ---
 
