@@ -55,16 +55,16 @@ These badges can be automated later via GitHub Actions to reflect progress:
 - [x] OOP Concepts (Encapsulation, Inheritance, Polymorphism, Abstraction)
 - [x] Exception Handling
 - [x] Collections Framework
-- [ ] Lambda and Stream API
+- [x] Lambda and Stream API
 - [x] File I/O Basics
 
 ---
 
 ## ✅ JDBC + MySQL
 
-- [ ] Install MySQL and connect via JDBC
-- [ ] Create Employee table with CRUD
-- [ ] Use PreparedStatement
+- [x] Install MySQL and connect via JDBC
+- [x] Create Employee table with CRUD
+- [x] Use PreparedStatement
 - [ ] Connection Pooling using HikariCP
 
 ---
